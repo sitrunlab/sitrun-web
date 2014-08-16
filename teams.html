@@ -9,9 +9,11 @@
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-
+    <link href="css/jquery.orgchart.css" rel="stylesheet">
+    
     <link href="css/banner.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="header">
@@ -40,7 +42,7 @@
 				      <li><a href="training.html">Training</a></li>
 				    </ul>
 				</div>
-			  
+			  	<a href="product.html" class="btn btn-default">Product</a>
 			  	<a href="Teams.html" class="btn btn-default">Teams</a>
 			  	<a href="about.html" class="btn btn-default">About Us</a>
 			  	<a href="contact.html" class="btn btn-default">contact Us</a>
@@ -50,7 +52,7 @@
 	</div>
 </div>
 <div class="jdlimage">
-	<img width="100%" src="images/contact.png">
+	<img width="100%" src="images/team.jpg">
 	<div class="container posre">
 		<h2>Teams</h2>
 	</div>
@@ -60,9 +62,62 @@
 <div class="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9">
-				teams
-			</div>
+			<div class="col-md-9"> <!-- main content -->
+				<ul id="organisation">
+                <li>
+                    <p><img class="photo" src="images/noimg.jpg"></p>
+                    <em><a href="#">Batman</a></em>
+                         
+                    <ul>
+                        <li>
+                        <p><img class="photo" src="images/noimg.jpg"></p>
+                        <a href="#">Batman Begins</a><br/>
+                            <ul>
+                                <li>
+                                	<p><img class="photo" src="images/noimg.jpg"></p>
+                                	<a href="#">Ra's Al Ghul</a>
+                                </li>
+                                <li>
+                                	<p><img class="photo" src="images/noimg.jpg"></p>
+                                	<a href="#">Carmine Falconi</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                        	<p><img class="photo" src="images/noimg.jpg"></p>
+                        	<a href="#">The Dark Knight</a><br/>
+                            <ul>
+                                <li>
+                                	<p><img class="photo" src="images/noimg.jpg"></p>
+                                	<a href="#">Joker</a>
+                                </li>
+                                <li>
+                                	<p><img class="photo" src="images/noimg.jpg"></p>
+                                	<a href="#">Harvey Dent</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                        	<p><img class="photo" src="images/noimg.jpg"></p>
+                        	<a href="#">The Dark Knight Rises</a><br/>
+                            <ul>
+                                <li>
+                                	<p><img class="photo" src="images/noimg.jpg"></p>
+                                	<a href="#">Bane</a>
+                                </li>
+                                <li>
+                                	<p><img class="photo" src="images/noimg.jpg"></p>
+                                	<a href="#">Talia Al Ghul</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+				<div id="mainorg">
+            	</div>
+			</div> <!-- end content -->
+
 			<div class="col-md-3">
 				<div class="right-widget">
 					<h3>Article</h3>
@@ -143,12 +198,16 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>	
 	
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
+	<script type="text/javascript" src="js/jquery.orgchart.js"></script>
 
 	<script type='text/javascript' src='js/jquery.bxslider.js'></script>
 	<script type='text/javascript' src='js/jquery.bxslider.init.js'></script>
 	
-
+	 <script>
+        $(function() {
+            $("#organisation").orgChart({container: $("#mainorg")});
+        });
+    </script>
 
 
 </body>

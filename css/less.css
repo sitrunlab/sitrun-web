@@ -276,6 +276,32 @@ body {
 .right-widget ul li {
   margin-bottom: 5pz;
 }
+.list-prod {
+  margin-bottom: 20px;
+  border-bottom: 3px double #ccc;
+  padding-bottom: 15px;
+}
+.list-prod .prod {
+  background: #F5F5F5;
+  padding: 15px;
+  margin: 5px 0;
+}
+.list-prod h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.list-prod img {
+  width: 145px;
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+.list-prod p {
+  padding-left: 160px;
+}
 .footer {
   padding: 20px 0;
   background: #000000;
