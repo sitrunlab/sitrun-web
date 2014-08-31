@@ -4,6 +4,36 @@ body {
 h1 {
   font-size: 28px;
 }
+.log-in {
+  margin-left: 0;
+  float: right;
+  padding-right: 25px;
+}
+.log-in > li,
+.top-social > li {
+  display: inline-block;
+  padding: 3px;
+}
+.box-login {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  background: #F9F9F9;
+}
+.nav-tabs h4 {
+  margin: 0;
+  padding: 0 10px;
+}
+.tab-content > .tab-pane {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 30px 20px 10px 20px;
+}
+.tab-content {
+  background: #fff;
+}
 .bg-pat2 {
   background: url('../images/bg-pat.png') repeat-x top;
   padding: 10px;

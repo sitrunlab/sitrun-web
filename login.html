@@ -60,42 +60,94 @@
 <div class="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9">
-				<div class="form-signin">
-						<form method="post" >
-					        <h2 class="form-signin-heading">Please sign in</h2>
-					        <div class="form-group">
-			                        <input type="text" name="userid" class="form-control" placeholder="User ID"/>
-			                    </div>
-			                    <div class="form-group">
-			                        <input type="password" name="password" class="form-control" placeholder="Password"/>
-			                    </div>          
-			                    <div class="form-group">
-			                        <input type="checkbox" name="remember_me"/> Remember me
-                    			</div>
-					        
-					        	<button type="submit" class="btn btn-large btn-grey">Sign in</button>
-					    </form>
-					    <a href="#" class="forget-password">Forget Your Password?</a>
-					    <hr>
-					    <h2 class="form-signup-heading">New User?</h2>
-					    <a href="#" class="btn btn-large btn-grey">Create an account</a>
+			<div class="col-md-12">			
+			<div class="box-login">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+					  <li class="active"><a href="#home" role="tab" data-toggle="tab"> <h4>Member Login</h4></a></li>
+					  <li><a href="#profile" role="tab" data-toggle="tab"><h4>Register</h4></a></li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+					  <div class="tab-pane active" id="home">
+					 
+					  	<form class="form-horizontal" role="form">
+						  <div class="form-group">
+						    <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+						    <div class="col-sm-6">
+						      <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+						    <div class="col-sm-6">
+						      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-sm-offset-3 col-sm-6">
+						      <div class="checkbox">
+						        <label>
+						          <input type="checkbox"> Remember me
+						        </label>
+						      </div>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-sm-offset-3 col-sm-6">
+						      <button type="submit" class="btn btn-default  btn-sm">Sign in</button>
+						    </div>
+						  </div>
+
+						  <div class="form-group">
+						<div class="col-sm-offset-3 col-sm-6"><a href="#">Lost your password?</a></div>
+						</div>
+				</form>
+
+					  </div>
+					  <div class="tab-pane" id="profile">
+					  	<h4>Not a member yet? Sign Up!</h4>
+					  	<form class="form-horizontal" role="form">
+							<div class="form-group">
+						    <label for="inputEmail3" class="col-sm-3 control-label">Username</label>
+						    <div class="col-sm-6">
+						      <input type="text" class="form-control input-sm" id="inputEmail3" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+						    <div class="col-sm-6">
+						      <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+						    <div class="col-sm-6">
+						      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
+						    </div>
+						  </div>
+						   <div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Confirm Password</label>
+						    <div class="col-sm-6">
+						      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
+						    </div>
+						  </div>
+						  
+						  <div class="form-group">
+						    <div class="col-sm-offset-3 col-sm-6">
+						      <button type="submit" class="btn btn-default  btn-sm">Register</button>
+						    </div>
+						  </div>
+						</form>
+
+					  </div>
 					</div>
 
 			</div>
-			<div class="col-md-3">
-				<div class="right-widget">
-					<h3>Article</h3>
-					<ul>
-						<li>article1</li>
-						<li>article1</li>
-						<li>article1</li>
-						<li>article1</li>
-						<li>article1</li>
-						<li>article1</li>
-					</ul>
-				</div>
+
 			</div>
+			
 		</div>
 	</div> 
 </div>
