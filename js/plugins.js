@@ -1,4 +1,13 @@
 // Avoid `console` errors in browsers that lack a console.
+function(){
+
+	 	$('.client-login-btn').click(function(){
+	 		$(this).toggleClass('active');
+	 		$('.client-login').slideToggle();
+	 	});
+	 	
+	 }
+
 (function() {
     var method;
     var noop = function () {};

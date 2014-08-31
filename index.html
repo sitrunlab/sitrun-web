@@ -11,16 +11,101 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <link href="css/banner.css" rel="stylesheet">
+    <link href="css/fx.slide.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<!-- Login -->
+	<div id="login">
+	<div class="container">
+		<div class="loginContent">
+		
+			<div class="col-md-6">
+				<h4>Not a member yet? Sign Up!</h4>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+				    <label for="inputEmail3" class="col-sm-3 control-label">Username</label>
+				    <div class="col-sm-6">
+				      <input type="text" class="form-control input-sm" id="inputEmail3" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+				    <div class="col-sm-6">
+				      <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+				    <div class="col-sm-6">
+				      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
+				    </div>
+				  </div>
+				   <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-3 control-label">Confirm Password</label>
+				    <div class="col-sm-6">
+				      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group">
+				    <div class="col-sm-offset-3 col-sm-6">
+				      <button type="submit" class="btn btn-default  btn-sm">Register</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<h4>Member Login</h4>
+				<form class="form-horizontal" role="form">
+				  <div class="form-group">
+				    <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+				    <div class="col-sm-6">
+				      <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+				    <div class="col-sm-6">
+				      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="col-sm-offset-3 col-sm-6">
+				      <div class="checkbox">
+				        <label>
+				          <input type="checkbox"> Remember me
+				        </label>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="col-sm-offset-3 col-sm-6">
+				      <button type="submit" class="btn btn-default  btn-sm">Sign in</button>
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				<div class="col-sm-offset-3 col-sm-6"><a href="#">Lost your password?</a></div>
+				</div>
+				</form>
+				</div>
+			</div>
+		</div>	
+	</div> <!-- /login -->
+
 <div class="header">
-	<!--<div class="top-mn">
-		<div class="container">
-			top
-		</div>
-	</div>-->
+
 	<div class="container bg-pat">
+		<div id="top">
+		<!-- login -->
+			<ul class="login">
+		    	<li>Hello Guest!</li>
+		    	<li>|</li>
+				<li><a id="toggleLogin" href="#"><i class="fa fa-plus-circle"></i> &nbsp; Log In | Register</a></li>
+				<li style="display:none"><a id="toggleLogin" href="#"><i class="fa fa-minus-circle"></i> &nbsp;Close Panel</a></li>
+			</ul> <!-- / login -->
+		</div> <!-- / top -->
 
 		<div class="col-md-4 brand">
 			<a href="index.html">
@@ -30,6 +115,7 @@
 		<div class="col-md-8">
 			<div class="navbar-default navbar-right">
 			  	<a href="index.html" class="btn btn-default">Home</a>
+			  	<a href="list-blog.html" class="btn btn-default">Blog</a>
 			  	<div class="btn-group">
 				    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 				      Project
@@ -358,8 +444,8 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>	
 	
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
 	
+
 	
      <!-- jQuery KenBurn Slider  -->	
 	<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>			
@@ -372,6 +458,16 @@
 	<!-- MODULES ONLY FOR THE DEMONSTATION -->
 	<script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>		
 	<script type="text/javascript" src="js/preview-fullwidth.js"></script>	
+
+
+
+
+	 <!-- Mootools - the core -->
+	<script type="text/javascript" src="js/mootools-1.2-core-yc.js"></script>
+    <!--Toggle effect (show/hide login form) -->
+	<script type="text/javascript" src="js/mootools-1.2-more.js"></script>
+		<script type="text/javascript" src="js/fx.slide.js"></script>
+
 
 	<!--
 			##############################
