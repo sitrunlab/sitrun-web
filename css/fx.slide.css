@@ -1,18 +1,18 @@
 /*
 Name: Nice Login and Signup Panel using Mootools 1.2
-Tutorial URI: http://web-kreation.com/demos/login_form_mootools_1.2/
+Tutorial URI: https://web-kreation.com/demos/login_form_mootools_1.2/
 Author: Jeremie Tisseau
-Author URI: http://web-kreation.com/
+Author URI: https://web-kreation.com/
 Date: August 2008
 
 	The CSS, XHTML and design is released under Creative Common License 2.5:
-	http://creativecommons.org/licenses/by-sa/2.5/
+	https://creativecommons.org/licenses/by-sa/2.5/
 
 */
 
 /* Login Panel */
 #top {
-  	background: url("login_top.jpg"/*tpa=http://web-kreation.com/demos/login_form_mootools_1.2/images/login_top.jpg*/) repeat-x 0 0;
+  	background: url("login_top.jpg"/*tpa=https://web-kreation.com/demos/login_form_mootools_1.2/images/login_top.jpg*/) repeat-x 0 0;
 	height: 38px;
 	position: relative;
 	margin-top: -10px;

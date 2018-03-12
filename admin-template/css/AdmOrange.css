@@ -1,10 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic);
-@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 /*! 
  *   AdminLTE v1.2
  *   Author: AlmsaeedStudio.com *   
  *   License: Open source - MIT
- *           Please visit http://opensource.org/licenses/MIT for more information
+ *           Please visit https://opensource.org/licenses/MIT for more information
  *   Editor : Ucu Samsudin
 !*/
 /*
@@ -2710,11 +2710,11 @@ Component: timeline
   border-left: 0;
 }
 /*!
- * iCheck v1.0.1, http://git.io/arlzeA
+ * iCheck v1.0.1, https://git.io/arlzeA
  * =================================
  * Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization
  *
- * (c) 2013 Damir Sultanov, http://fronteed.com
+ * (c) 2013 Damir Sultanov, https://fronteed.com
  * MIT Licensed
  */
 /* iCheck plugin Minimal skin, black

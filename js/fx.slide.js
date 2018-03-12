@@ -1,7 +1,7 @@
 /* FX.Slide */
 /* toggle window for the login section */
 /* Works with mootools-release-1.2 */
-/* more info at http://demos.mootools.net/Fx.Slide */
+/* more info at https://demos.mootools.net/Fx.Slide */
 
 window.addEvent('domready', function(){
 

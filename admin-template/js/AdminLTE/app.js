@@ -672,11 +672,11 @@ $(window).load(function() {
 
 /*
  * jQuery resize event - v1.1 - 3/14/2010
- * http://benalman.com/projects/jquery-resize-plugin/
+ * https://benalman.com/projects/jquery-resize-plugin/
  * 
  * Copyright (c) 2010 "Cowboy" Ben Alman
  * Dual licensed under the MIT and GPL licenses.
- * http://benalman.com/about/license/
+ * https://benalman.com/about/license/
  */
 (function($, h, c) {
     var a = $([]), e = $.resize = $.extend($.resize, {}), i, k = "setTimeout", j = "resize", d = j + "-special-event", b = "delay", f = "throttleWindow";
@@ -738,7 +738,7 @@ $(window).load(function() {
  * SlimScroll https://github.com/rochal/jQuery-slimScroll
  * =======================================================
  * 
- * Copyright (c) 2011 Piotr Rochala (http://rocha.la) Dual licensed under the MIT 
+ * Copyright (c) 2011 Piotr Rochala (https://rocha.la) Dual licensed under the MIT 
  */
 (function(f) {
     jQuery.fn.extend({slimScroll: function(h) {
@@ -883,7 +883,7 @@ $(window).load(function() {
     jQuery.fn.extend({slimscroll: jQuery.fn.slimScroll})
 })(jQuery);
 
-/*! iCheck v1.0.1 by Damir Sultanov, http://git.io/arlzeA, MIT Licensed */
+/*! iCheck v1.0.1 by Damir Sultanov, https://git.io/arlzeA, MIT Licensed */
 (function(h) {
     function F(a, b, d) {
         var c = a[0], e = /er/.test(d) ? m : /bl/.test(d) ? s : l, f = d == H ? {checked: c[l], disabled: c[s], indeterminate: "true" == a.attr(m) || "false" == a.attr(w)} : c[e];
